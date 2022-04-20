@@ -1,0 +1,18 @@
+[package]
+name = "starbyface"
+version = "1.0.0"
+description = "Celebrity look alike face-recognition API"
+authors = ["XXIV"]
+homepage = "https://github.com/thechampagne/starbyface-rust"
+repository = "https://github.com/thechampagne/starbyface-rust"
+keywords = ["pictures", "media", "entertainment", "photos", "celebrities"]
+readme = "README.md"
+license = "Apache-2.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11", features = ["blocking", "multipart"] }
+regex = "1.5"
+json = "0.12.4"
